@@ -1,0 +1,46 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.nav-link :hover{
+    color: blue;
+  
+  }
+  .flex{
+    width: 100%;
+    padding-bottom: 10%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url("https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20210204035447_Ford_Raptor_lead_1.jpg " );
+  }
+
+
+
+  #container{
+    display: flex;
+    border-bottom: 10px;
+    border-color: black;
+}
+.card{
+    margin-top: 5%;
+    /* margin-left: 5%; */
+    width: 28.3%;
+
+    float: right;
+}
+
+
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    transition: 0.5s;
+  }
+
+#flexbutton:hover {
+    box-shadow: -43px 25px 25px 11px rgba(0,0,0,0.1);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    /* -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75); */
+    transition: 0.3s;
+  
+}

@@ -1,0 +1,61 @@
+.commitflex{
+    width: 100%;
+    text-align: center;
+    object-fit: cover;
+    margin-left: 15%;
+    background-repeat: no-repeat;
+    background-image: url("https://thesacredpossessions.files.wordpress.com/2021/09/service-ford-india.jpg?w=1024");
+
+}
+
+.btn :hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    transition: 0.1s;
+  
+}
+.flexbutton{
+    margin-left: 40%;
+
+    padding-bottom: 2.1%;
+    padding-top: 25%;
+}
+.transparency{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.timg{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.service{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.Assurance{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#part{
+    justify-content: space-around;
+}
+@media (max-width: 988px) and (min-width:500px){
+    
+
+    #part{
+        width: 100%;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+       
+       flex-direction: column; 
+    }
+    .ownerbutton{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+}

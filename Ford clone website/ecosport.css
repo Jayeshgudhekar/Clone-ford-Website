@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.nav-link :hover{
+    color: blue;
+  
+  }
+  .flex{
+    width: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url("https://img.etimg.com/photo/msid-73475398/the-new-ecosports-bsvi-compliant-1-5-litre-diesel-engine-delivers-100-ps-power.jpg   " );
+    .btn:hover{
+      color: #00095b;;
+    }
+  }
+
+
+
+  #container{
+    display: flex;
+    border-bottom: 10px;
+    border-color: black;
+}
+.card{
+    margin-top: 5%;
+    /* margin-left: 5%; */
+    width: 28.3%;
+
+    float: right;
+}
+
+
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    transition: 0.5s;
+  }
+
+#flexbutton:hover {
+    box-shadow: -43px 25px 25px 11px rgba(0,0,0,0.1);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    /* -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75); */
+    transition: 0.3s;
+  
+}
